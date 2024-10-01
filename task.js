@@ -66,7 +66,7 @@ else if(a>60 && a<=80){
     console.log(a+"grade B");
 }
 else if(a>50 && a<=60){
-    console.log(a+"ghrade c");
+    console.log(a+"grade c");
 }
 else if(a>35 && a<45){ 
     console.log(a+"grade D");   

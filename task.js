@@ -59,18 +59,17 @@ while(a<=10);
 // 4.Answer
 
 var a=40;
-if(a>80){
-    console.log("grade A");
+if(a>80 && a<=100){
+    console.log(a+"grade A");
 }
-else if(a>60){
-    console.log("grade B");
+else if(a>60 && a<=80){
+    console.log(a+"grade B");
 }
-else if(a>50){
-    console.log("ghrade c");
+else if(a>50 && a<=60){
+    console.log(a+"ghrade c");
 }
-else if(a>35 && a<45){
-    console.log(a); 
-    console.log("grade D");   
+else if(a>35 && a<45){ 
+    console.log(a+"grade D");   
 }
 else{
     console.log("fail");   
